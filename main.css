@@ -4,7 +4,9 @@ body{
 
 }
 
-
+h2 {
+    font-size: 54px;
+}
 .first-section,.second-section{
 display: flex;
 padding: 30px 75px;
@@ -68,6 +70,70 @@ width: 50%;
 
 .second-section .left-content {
     margin-top: 3%;
+}
+
+
+.third-section {
+    text-align: center;
+    padding: 30px 75px;
+}
+
+.third-section h2{
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.item-lsit {
+display: flex;
+padding: 30px 0;
+}
+
+.item-lsit img{
+    width: 100%;
+ }
+
+.first-item,.second-item,.third-item {
+width: 30%;
+margin-left: 3%;
+box-shadow: 1px 2px 4px 2px #ccc;
+padding: 15px;
+border-radius: 15px;
+}
+
+.item-lsit h6 {
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.item-lsit p {
+    text-align: left;
+}
+
+.milestone-section {
+    margin: 75px 0px;
+}
+
+.social-stats {
+    display: flex;
+    width: 85%;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.social-stats h4 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.youtube,.instagram,.dribble {
+    width: 33.3%;
+    padding: 20px 0px;
+    text-align: center;
 }
 
 
